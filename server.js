@@ -1,5 +1,6 @@
 var express = require('express'),
-	connect = require('connect')
+	connect = require('connect'),
+	mongoose = require('mongoose'),
 	stylus = require('stylus');
 
 
@@ -26,15 +27,34 @@ app.use(stylus.middleware(
 ));
 app.use(express.static(__dirname + '/public'));
 
+//DB Connection
+mongoose.connect('mongodb://localhost/meanboiler');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error...'));
+db.once('open', function callback(){
+	console.log('meanboiler db opened');
+});
+
+var messageSchema = mongoose.Schema({message: String});
+var Message = mongoose.model('Message', messageSchema);
+var mongoMessage;
+Message.findOne().exec(function(err, messageDoc){
+	mongoMessage = messageDoc.message;
+});
+
+//Setting the Path for the partials.
 app.get('/partials/:partialPath', function(req, res){
 	res.render('partials/' + req.params.partialPath);
 });
 
+//Express Default Route
 app.get('*', function(req, res){
-	res.render('index');
+	res.render('index', {
+		mongoMessage: mongoMessage
+	});
 });
 
-
+//Express Port Settings
 var port = "3000"
 app.listen(port);
 console.log('Listening on port ' + port + '...');
