@@ -35,6 +35,8 @@ db.once('open', function callback(){
 	console.log('meanboiler db opened');
 });
 
+
+//Fetching DB Data
 var messageSchema = mongoose.Schema({message: String});
 var Message = mongoose.model('Message', messageSchema);
 var mongoMessage;
