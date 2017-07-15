@@ -2,8 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac434c50-425b-4a2e-988d-ca9f64c72981" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/main/mvMainCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/views/partials/featured-soles.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/views/partials/new-soles.jade" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/trim.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/public/vendor/angular/angular.min.js.gzip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/app.js" afterPath="$PROJECT_DIR$/public/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/site.css" afterPath="$PROJECT_DIR$/public/css/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/site.styl" afterPath="$PROJECT_DIR$/public/css/site.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-resource/.bower.json" afterPath="$PROJECT_DIR$/public/vendor/angular-resource/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-resource/README.md" afterPath="$PROJECT_DIR$/public/vendor/angular-resource/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-resource/angular-resource.js" afterPath="$PROJECT_DIR$/public/vendor/angular-resource/angular-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-resource/angular-resource.min.js" afterPath="$PROJECT_DIR$/public/vendor/angular-resource/angular-resource.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-resource/angular-resource.min.js.map" afterPath="$PROJECT_DIR$/public/vendor/angular-resource/angular-resource.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-resource/bower.json" afterPath="$PROJECT_DIR$/public/vendor/angular-resource/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-route/.bower.json" afterPath="$PROJECT_DIR$/public/vendor/angular-route/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-route/README.md" afterPath="$PROJECT_DIR$/public/vendor/angular-route/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/public/vendor/angular-route/angular-route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-route/angular-route.min.js" afterPath="$PROJECT_DIR$/public/vendor/angular-route/angular-route.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-route/angular-route.min.js.map" afterPath="$PROJECT_DIR$/public/vendor/angular-route/angular-route.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular-route/bower.json" afterPath="$PROJECT_DIR$/public/vendor/angular-route/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular/.bower.json" afterPath="$PROJECT_DIR$/public/vendor/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular/README.md" afterPath="$PROJECT_DIR$/public/vendor/angular/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular/angular-csp.css" afterPath="$PROJECT_DIR$/public/vendor/angular/angular-csp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular/angular.js" afterPath="$PROJECT_DIR$/public/vendor/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular/angular.min.js" afterPath="$PROJECT_DIR$/public/vendor/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/public/vendor/angular/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/angular/bower.json" afterPath="$PROJECT_DIR$/public/vendor/angular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/.bower.json" afterPath="$PROJECT_DIR$/public/vendor/jquery/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/public/vendor/jquery/MIT-LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/bower.json" afterPath="$PROJECT_DIR$/public/vendor/jquery/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/jsonp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/load.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/parseJSON.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/parseJSON.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/parseXML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/var/nonce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/var/rquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/xhr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/attributes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/attr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/classes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/prop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/val.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/callbacks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/core/access.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/core/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/core/parseHTML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/core/ready.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/core/var/rsingleTag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/addGetHookIf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/curCSS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/defaultDisplay.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/defaultDisplay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/swap.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/swap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/cssExpand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/getStyles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/isHidden.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/isHidden.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/rmargin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/rnumnonpx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/data/Data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data/accepts.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/data/accepts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data/var/data_priv.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/data/var/data_priv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data/var/data_user.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/data/var/data_user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/deprecated.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/dimensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/effects.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/effects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/effects/Tween.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/effects/animatedSelector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/event.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/event/alias.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/event/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/exports/amd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/exports/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/intro.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/intro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/_evalUrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/offset.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/offset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/outro.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/outro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/queue.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/queue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/queue/delay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/selector-native.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/selector-sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/selector.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/serialize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/traversing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/traversing/findFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/arr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/class2type.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/hasOwn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/indexOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/pnum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/push.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/rnotwhite.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/rnotwhite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/slice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/strundefined.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/strundefined.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/var/toString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/public/vendor/jquery/src/wrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/toastr/.bower.json" afterPath="$PROJECT_DIR$/public/vendor/toastr/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/toastr/bower.json" afterPath="$PROJECT_DIR$/public/vendor/toastr/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/toastr/toastr.css" afterPath="$PROJECT_DIR$/public/vendor/toastr/toastr.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/toastr/toastr.js" afterPath="$PROJECT_DIR$/public/vendor/toastr/toastr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/toastr/toastr.min.css" afterPath="$PROJECT_DIR$/public/vendor/toastr/toastr.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/toastr/toastr.min.js" afterPath="$PROJECT_DIR$/public/vendor/toastr/toastr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/toastr/toastr.min.js.map" afterPath="$PROJECT_DIR$/public/vendor/toastr/toastr.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/includes/layout.jade" afterPath="$PROJECT_DIR$/server/includes/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/includes/scripts.jade" afterPath="$PROJECT_DIR$/server/includes/scripts.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/views/index.jade" afterPath="$PROJECT_DIR$/server/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/views/partials/main.jade" afterPath="$PROJECT_DIR$/server/views/partials/main.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +151,58 @@
           <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1008">
-                  <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+                <state relative-caret-position="1032">
+                  <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/views/partials/main.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="featured-soles.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/views/partials/featured-soles.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scripts.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/includes/scripts.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="new-soles.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/views/partials/new-soles.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="layout.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/includes/layout.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -34,11 +212,61 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/app/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+                <state relative-caret-position="168">
+                  <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/vendor/jquery/src/ajax/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="528">
+                  <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mvMainCtrl.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/app/main/mvMainCtrl.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1224">
+                  <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+                  <folding>
+                    <element signature="e#12171#24339#0" expanded="false" />
+                    <element signature="e#24349#36495#0" expanded="false" />
+                    <element signature="e#36505#48493#0" expanded="false" />
+                    <element signature="e#48503#60542#0" expanded="false" />
+                    <element signature="e#60552#72451#0" expanded="false" />
+                    <element signature="e#72461#84340#0" expanded="false" />
+                    <element signature="e#84350#96363#0" expanded="false" />
+                    <element signature="e#96373#108339#0" expanded="false" />
+                    <element signature="e#108349#119315#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/views/index.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="site.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/css/site.styl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="312">
+                  <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -56,7 +284,18 @@
       <list>
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server/includes/layout.jade" />
+        <option value="$PROJECT_DIR$/public/css/site.styl" />
+        <option value="$PROJECT_DIR$/server/views/index.jade" />
+        <option value="$PROJECT_DIR$/server/views/partials/featured-courses.jade" />
+        <option value="$PROJECT_DIR$/server/views/partials/main.jade" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/server/includes/scripts.jade" />
+        <option value="$PROJECT_DIR$/public/app/app.js" />
+        <option value="$PROJECT_DIR$/public/app/main/mvMainCtrl.js" />
+        <option value="$PROJECT_DIR$/server/views/partials/featured-soles.jade" />
+        <option value="$PROJECT_DIR$/server/views/partials/new-soles.jade" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -76,6 +315,9 @@
     <option name="y" value="49" />
     <option name="width" value="3222" />
     <option name="height" value="1762" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -158,6 +400,10 @@
               <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -170,6 +416,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sstox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sstox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,16 +552,15 @@
       <updated>1499448848566</updated>
       <workItem from="1499448850948" duration="2506000" />
       <workItem from="1499452064287" duration="2846000" />
-      <workItem from="1500133453274" duration="3916000" />
+      <workItem from="1500133453274" duration="9356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9268000" />
+    <option name="totallyTimeSpent" value="14708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="49" width="3222" height="1762" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1071875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -362,14 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -386,34 +641,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/app.js">
+    <entry file="file://$PROJECT_DIR$/server/includes/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/main.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/site.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/jquery/src/ajax/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/includes/scripts.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views/partials/featured-soles.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/main/mvMainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding>
+            <element signature="e#12171#24339#0" expanded="false" />
+            <element signature="e#24349#36495#0" expanded="false" />
+            <element signature="e#36505#48493#0" expanded="false" />
+            <element signature="e#48503#60542#0" expanded="false" />
+            <element signature="e#60552#72451#0" expanded="false" />
+            <element signature="e#72461#84340#0" expanded="false" />
+            <element signature="e#84350#96363#0" expanded="false" />
+            <element signature="e#96373#108339#0" expanded="false" />
+            <element signature="e#108349#119315#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views/partials/new-soles.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views/partials/main.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="1032">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
           <folding />
         </state>
       </provider>

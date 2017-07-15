@@ -34,14 +34,6 @@ db.once('open', function callback(){
 });
 
 
-//Fetching DB Data
-var messageSchema = mongoose.Schema({message: String});
-var Message = mongoose.model('Message', messageSchema);
-var mongoMessage;
-Message.findOne({}, function(err, messageDoc){
-	mongoMessage = messageDoc.message;
-});
-
 //Setting the Path for the partials.
 app.get('/partials/:partialPath', function(req, res){
 	res.render('partials/' + req.params.partialPath);
@@ -49,9 +41,7 @@ app.get('/partials/:partialPath', function(req, res){
 
 //Express Default Route
 app.get('*', function(req, res){
-	res.render('index', {
-		mongoMessage: mongoMessage
-	});
+	res.render('index');
 });
 
 //Express Port Settings
