@@ -16,9 +16,6 @@ function compile(str, path){
 //App Configuration, formerly known as app.configure(){}.
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/server/views');
-app.use(connect.logger('dev'));
-app.use(connect.json());
-app.use(connect.urlencoded());
 app.use(stylus.middleware(
 	{
 		src: __dirname + "/public",
@@ -28,11 +25,12 @@ app.use(stylus.middleware(
 app.use(express.static(__dirname + '/public'));
 
 //DB Connection
-mongoose.connect('mongodb://localhost/meanboiler');
+mongoose.Promise = global.Promise;
+mongoose.connect('mongodb://localhost/sstox', { useMongoClient: true });
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error...'));
 db.once('open', function callback(){
-	console.log('meanboiler db opened');
+	console.log('sstox db opened');
 });
 
 
@@ -40,7 +38,7 @@ db.once('open', function callback(){
 var messageSchema = mongoose.Schema({message: String});
 var Message = mongoose.model('Message', messageSchema);
 var mongoMessage;
-Message.findOne().exec(function(err, messageDoc){
+Message.findOne({}, function(err, messageDoc){
 	mongoMessage = messageDoc.message;
 });
 
@@ -57,6 +55,6 @@ app.get('*', function(req, res){
 });
 
 //Express Port Settings
-var port = "3000"
+var port = "3000";
 app.listen(port);
-console.log('Listening on port ' + port + '...');
+console.log('Listening! on port ' + port + '...');
