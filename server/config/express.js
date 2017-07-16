@@ -1,5 +1,8 @@
 var express = require('express'),
-    stylus = require('stylus');
+    stylus = require('stylus'),
+    cookieParser = require('cookie-parser'),
+    session = require('express-session'),
+    passport = require('passport');
 
 module.exports = function(app, config) {
 
@@ -10,6 +13,10 @@ module.exports = function(app, config) {
 //App Configuration, formerly known as app.configure(){}.
     app.set('view engine', 'jade');
     app.set('views', config.rootPath + '/server/views');
+    app.use(cookieParser());
+    app.use(session({secret: 'sstox crazy shizzle', resave: false, saveUninitialized: false}));
+    app.use(passport.initialize());
+    app.use(passport.session());
     app.use(stylus.middleware(
         {
             src: config.rootPath + "/public",
