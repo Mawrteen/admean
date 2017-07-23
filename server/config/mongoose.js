@@ -13,7 +13,7 @@ module.exports = function (config) {
 var userSchema = mongoose.Schema({
     firstName: String,
     lastName: String,
-    userName: String
+    username: String
 });
 
 var User = mongoose.model('User', userSchema);
@@ -21,9 +21,6 @@ var User = mongoose.model('User', userSchema);
 User.find({}, function (err, collection) {
     if(collection.length === 0) {
         User.create(
-            {firstName: 'Martin', lastName: 'Mincohorov', userName: 'mmincorov'},
-            {firstName: 'FName', lastName: 'LName', userName: 'FLNAME'},
-            {firstName: 'Other', lastName: 'OUser', userName: 'otherusername'}
-        );
+            {firstName: 'Martin', lastName: 'Mincohorov', username: 'mmincorov'});
     }
 });

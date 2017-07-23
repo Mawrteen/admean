@@ -14,17 +14,15 @@ require('./server/config/express')(app, config);
 //Mongoose Config
 require('./server/config/mongoose')(config);
 
+// Checking if authentication User Exists
 var User = mongoose.model('User');
 passport.use(new LocalStrategy(
 	function (username, password, done) {
 		User.findOne({username: username}, function (err, user) {
-			if(user){
-				return done(null, user);
-			} else {
-				return done(null, false);
-			}
-        });
-    }
+      if (user) {return done(null, user);}
+			else {return done(null, false);}			
+    });
+  }
 ));
 
 passport.serializeUser(function (user, done) {

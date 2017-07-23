@@ -1,5 +1,13 @@
-angular.module("app").controller('mvLoginCtrl', function ($scope) {
+angular.module("app").controller('mvLoginCtrl',
+  function ($scope, $http, mvIdentity, mvNotifier, mvAuth) {
+    $scope.identity = mvIdentity;
     $scope.signin = function (username, password) {
-        console.log("Login Function Goes Here!");
+      mvAuth.authenticateUser(username, password).then(function (success) {
+        if(success){
+          mvNotifier.notify('Login Successfull!');
+        }else{
+          mvNotifier.notify('Incorrect Login Credentials!');
+        }
+      });
     };
 });
