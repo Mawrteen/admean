@@ -1,4 +1,5 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'),
+    crypto = require('crypto');
 
 //Mongoose Connection Config
 module.exports = function (config) {
@@ -13,14 +14,39 @@ module.exports = function (config) {
 var userSchema = mongoose.Schema({
     firstName: String,
     lastName: String,
-    username: String
+    username: String,
+    salt: String,
+    hashed_pwd: String
 });
+
+userSchema.methods = {
+  authenticate: function (passwordToMatch) {
+    return hashPwd(this.salt, passwordToMatch) === this.hashed_pwd;
+  }
+}
 
 var User = mongoose.model('User', userSchema);
 
 User.find({}, function (err, collection) {
     if(collection.length === 0) {
-        User.create(
-            {firstName: 'Martin', lastName: 'Mincohorov', username: 'mmincorov'});
+        var salt, hash;
+        salt = createSalt();
+        hash = hashPwd(salt, 'mmincorov');
+        User.create({
+            firstName: 'Martin',
+            lastName: 'Mincohorov',
+            username: 'mmincorov',
+            salt: salt,
+            hashed_pwd: hash
+          });
     }
 });
+
+function createSalt() {
+  return crypto.randomBytes(128).toString('base64');
+}
+
+function hashPwd(salt, pwd) {
+  const hmac = crypto.createHmac('sha1', salt.toString());
+  return hmac.update(pwd).digest('hex');
+}

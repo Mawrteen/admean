@@ -9,7 +9,7 @@ module.exports = {
     },
     production: {
         rootPath: rootPath,
-        db: '',
-        port: ''
+        db: 'mongodb://localhost/sstox',
+        port: 3000
     }
 };
