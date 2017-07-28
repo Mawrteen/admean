@@ -7,6 +7,14 @@ module.exports = function (app) {
     });
 
     app.post('/login', auth.authenticate);
+    app.post('/logout', function (req, res) {
+      req.logout();
+      res.send(
+        {
+          logout: true
+        }
+      );
+    });
     //Express Default Route
     app.get('*', function(req, res){
         res.render('index');
