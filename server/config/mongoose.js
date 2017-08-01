@@ -18,7 +18,8 @@ var userSchema = mongoose.Schema({
   lastName: String,
   username: String,
   salt: String,
-  hashed_pwd: String
+  hashed_pwd: String,
+  roles: [String]
 });
 
 userSchema.methods = {
@@ -33,13 +34,22 @@ User.find({}, function(err, collection) {
   if (collection.length === 0) {
     var salt, hash;
     salt = createSalt();
-    hash = hashPwd(salt, 'mmincorov');
+    hash = hashPwd(salt, 'pass');
     User.create({
       firstName: 'Martin',
       lastName: 'Mincohorov',
       username: 'mmincorov',
       salt: salt,
-      hashed_pwd: hash
+      hashed_pwd: hash,
+      roles: ['admin']
+    },
+    {
+      firstName: 'Mawrteen',
+      lastName: 'Meen',
+      username: 'mmeen',
+      salt: salt,
+      hashed_pwd: hash,
+      roles: []
     });
   }
 });
