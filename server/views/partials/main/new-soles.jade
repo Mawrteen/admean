@@ -1,6 +1,7 @@
 .panel.panel-primary
     .panel-heading.text-center New Soles
     .panel-body
-        .row(ng-repeat="sneaker in sneakers | orderBy: 'releaseDate':true")
-            .col-md-9 {{sneaker.title}}
+        .row(ng-repeat="sneaker in sneakers.Products | orderBy: 'releaseDate':true | limitTo:10")
+            .col-md-9 
+                a(href="/sneakers/{{sneaker.urlKey}}") {{sneaker.title}}
             .col-md-3 {{sneaker.releaseDate | date: 'MMM d'}}

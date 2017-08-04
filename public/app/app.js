@@ -19,4 +19,6 @@ angular.module('app').config(function($routeProvider, $locationProvider){
 							controller: 'mvProfileCtrl',
 							resolve: routeRoleChecks.user
 		})
+		.when('/sneakers', { templateUrl: '/partials/sneakers/sneaker-list', controller: 'mvSneakerListCtrl'})
+		.when('/sneakers/:id', { templateUrl: '/partials/sneakers/sneaker-detail', controller: 'mvSneakerDetailCtrl'})
 });

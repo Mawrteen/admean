@@ -1,5 +1,6 @@
 .panel.panel-primary
     .panel-heading.text-center Featured Soles
     .panel-body
-        .row(ng-repeat="sneaker in sneakers")
-            .col-md-12 {{sneaker.title}}
+        .row(ng-repeat="sneaker in sneakers.Products | limitTo:10")
+            .col-md-12 
+                a(href="/sneakers/{{sneaker.urlKey}}") {{sneaker.title}}

@@ -1,0 +1,13 @@
+.container
+    h1 {{sneakerDetail[0].title}}
+    .row
+        .col-md-6
+            img(src="{{sneakerDetail[0].media.smallImageUrl}}", alt="{{sneakerDetail[0].title}}")
+        .col-md-6
+            .panel.panel-primary
+                .panel-heading
+                .panel-body
+                    h3 Year of Release: {{sneakerDetail[0].year}}
+                    h3 Retail Prile: ${{sneakerDetail[0].retailPrice}}
+                    h3 Colorway: {{sneakerDetail[0].colorway}}
+                    h3 Style: {{sneakerDetail[0].styleId}}
