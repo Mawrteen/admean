@@ -4,12 +4,19 @@ var auth = require('./auth'),
     User = mongoose.model('User');
 
 module.exports = function (app) {
+
+    app.get('/api/users', function (req, res) {
+      User.find({}, function (err, collection) {
+        res.send(collection);
+      });
+    })
     //Setting the Path for the partials.
     app.get('/partials/*', function(req, res){
         res.render('partials/' + req.params[0]);
     });
 
     app.post('/api/users', users.createUser);
+    app.put('/api/users', users.updateUser);
     app.post('/login', auth.authenticate);
     app.post('/logout', function (req, res) {
       req.logout();
